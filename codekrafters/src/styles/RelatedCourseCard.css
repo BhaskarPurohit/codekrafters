@@ -1,0 +1,47 @@
+div{
+    font-family: 'Roboto', sans-serif;
+}
+
+.related-course-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    /* border: 1px solid red; */
+    gap: 40px;
+
+}
+
+.related-course-card{
+    /* border: 1px solid black; */
+    height: 20vh;
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.info-title{
+    font-weight: bold;
+    /* background: rebeccapurple; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.time-icon{
+    background: rgba(27, 153, 212,1);
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* fill: aliceblue; */
+}

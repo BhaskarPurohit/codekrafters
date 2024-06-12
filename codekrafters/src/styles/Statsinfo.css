@@ -1,1 +1,70 @@
-.
+.stats-new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 50px 280px; */
+    width: auto;
+    /* border: 2px solid blue; */
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+    padding: 30px;
+}
+
+.stats-info-main{
+    display: flex;
+    /* border: 1px solid red; */
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+    justify-content: space-between;
+    gap: 250px;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.stats-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(245, 247, 249);
+    justify-content: center;
+}
+
+.salary-stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 5px; */
+}
+
+.title{
+    font-weight: bold;
+    font-size:35px;
+
+}
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+}
+
+#salary-title{
+    color: rgb(38, 184, 78);
+}
+
+#placements-title{
+    color: rgb(255, 164, 27);
+}
+
+#live-title{
+    color: rgb(214, 0, 0);
+}
