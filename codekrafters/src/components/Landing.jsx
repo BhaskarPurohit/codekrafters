@@ -1,6 +1,8 @@
 import React from 'react'
 import "../styles/Landing.css"
+// import ContactForm from "../components/ContactFrom"
 import { FaDownload } from 'react-icons/fa'
+import CourseSelect from '../components/ContactFrom'
 const Landing = () => {
   return (
     <div className='landing-main'>
@@ -24,7 +26,23 @@ const Landing = () => {
             </div>
         </div>
         <div className="center-hero-img"></div>
-        <div className="right-section"></div>
+        <div className="right-section" id='contact-form'>
+            <div className="help-title">We are here to help!</div>
+            <div className="query-title">Please contact us in case of any query</div>
+            <div className="input-box" id="name-input">
+                <input type="text" placeholder='Your Name'/>
+            </div>
+            <div className="input-box" id="email-input">
+                <input type="text" placeholder='Your Email'/>
+            </div>
+            <div className="input-box" id="phone-input">
+                <input type="text" placeholder='Your Contact Number' />
+            </div>
+            <div className="input-box" id="select-course">
+                {/* <input type="text" placeholder='Your Contact Number' /> */}
+                <CourseSelect/>
+            </div>
+        </div>
     </div>
   )
 }
