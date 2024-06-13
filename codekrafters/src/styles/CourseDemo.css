@@ -30,6 +30,12 @@
 
 .course-section{
     margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 20px 50px;
+    height: 60vh;
+    gap: 80px;
     
 }
 
@@ -39,3 +45,45 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+.course-card{
+    border: 1px solid red;
+    width: 25vw;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.course-img{
+    /* background-image: url("../assets/cover-dsa.jpg"); */
+    /* background-size: contain; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    position: relative;
+    border-radius: 20px;
+    padding-top: 20px;
+    /* border: 1px solid green; */
+    border-radius: 20px;
+    width: 80%;
+    height: 40%;
+    img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    border-radius: 20px;
+        
+    }
+}
+
+.course-info{
+    border: 1px solid black;
+    width: 80%;
+    height: 40%;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 30px; */
+}
+
