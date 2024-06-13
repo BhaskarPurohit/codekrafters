@@ -1,0 +1,28 @@
+.course-demo-main{
+    margin-top: 30px;
+    height: 50vh;
+    /* width: 100%; */
+    border: 1px solid black;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.roadmap-heading{
+    color: rgb(27,152,213);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 60px;
+}
+
+.details{
+    font-weight: bold;
+    font-size: 40px;
+}

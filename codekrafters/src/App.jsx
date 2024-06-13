@@ -4,6 +4,7 @@ import Landing from './components/Landing'
 import StatsInfo from './components/StatsInfo'
 import "./App.css"
 import RelatedCourses from './components/RelatedCourses'
+import CourseDemo from './components/CourseDemo'
 const App = () => {
   return (
     <div className="home">
@@ -11,6 +12,7 @@ const App = () => {
       <Landing/>
       <StatsInfo/>
       <RelatedCourses/>
+      <CourseDemo/>
     </div>
   )
 }

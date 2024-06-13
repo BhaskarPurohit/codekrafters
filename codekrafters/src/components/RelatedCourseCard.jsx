@@ -9,8 +9,8 @@ const RelatedCourseCard = () => {
                     <GiSandsOfTime style={{
                         height: "40px",
                         width: "40px",
-                        padding:0,
-                        
+                        padding: 0,
+
                     }} />
                 </div>
                 <div className="info-title">
@@ -25,15 +25,15 @@ const RelatedCourseCard = () => {
                     <GiSandsOfTime style={{
                         height: "40px",
                         width: "40px",
-                        padding:0,
-                        
+                        padding: 0,
+
                     }} />
                 </div>
                 <div className="info-title">
-                    Real Work Experience
+                    Guaranteed Job Referral
                 </div>
                 <div className="info-para">
-                    Work with companies directly on software development projects to master your skills and build a strong project portfolio to get your.
+                    Our program seeks to eliminate financial risk in the upskilling journey with iur guaranteed job referrals option.
                 </div>
             </div>
             <div className="related-course-card">
@@ -41,18 +41,18 @@ const RelatedCourseCard = () => {
                     <GiSandsOfTime style={{
                         height: "40px",
                         width: "40px",
-                        padding:0,
-                        
+                        padding: 0,
+
                     }} />
                 </div>
                 <div className="info-title">
-                    Real Work Experience
+                    Crack FAANG Interviews
                 </div>
                 <div className="info-para">
-                    Work with companies directly on software development projects to master your skills and build a strong project portfolio to get your.
+                    Interact and Learn from mentors working in top product based companies to crack Interviews for your dream role.
                 </div>
             </div>
-            
+
         </div>
     )
 }
