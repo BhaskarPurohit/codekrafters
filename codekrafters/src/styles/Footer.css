@@ -35,4 +35,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 50px;
+    /* height: 40vh; */
+}
+
+
+.explore-heading, .useful-link-heading, .contact-info-heading{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.explore-links, .useful-links, .contact-info-links {
+    margin-top: 50px;
 }
