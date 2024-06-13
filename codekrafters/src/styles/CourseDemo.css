@@ -3,6 +3,7 @@
     height: 50vh;
     /* width: 100%; */
     border: 1px solid black;
+    height: auto;
 }
 
 .headings{
@@ -25,4 +26,16 @@
 .details{
     font-weight: bold;
     font-size: 40px;
+}
+
+.course-section{
+    margin-top: 70px;
+    
+}
+
+.course-accordion{
+    width: 60vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
